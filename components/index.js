@@ -1,0 +1,7 @@
+export { default as Header } from './Header'
+export { default as Footer } from './Footer'
+export { default as SearchBox } from './SearchBox'
+export { default as OurBlog } from './OurBlog'
+export { default as OurBlogCard } from './OurBlogCard'
+export { default as Specialities } from './Specialities'
+export { default as SpecialitiesCard } from './SpecialitiesCard'

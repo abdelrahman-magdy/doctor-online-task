@@ -1,0 +1,35 @@
+.Ourblog {
+    background: #f9fdff !important;
+    margin-bottom: 131px;
+
+    &-container {
+        margin-inline: 96px;
+    }
+
+    .title_section {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h2 {
+            font-size: 34px;
+            color: #2c2c2c;
+            font-size: 32px;
+            font-weight: bolder;
+            text-transform: capitalize;
+        }
+
+        p {
+            max-width: 60%;
+            margin: auto;
+            line-height: 30px;
+            font-size: 18px;
+            color: #2c2c2c;
+        }
+    }
+
+    &__items {
+        display: flex;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+}

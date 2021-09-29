@@ -1,0 +1,1 @@
+export { default as flag } from './images/egypt-flag.png' //like react

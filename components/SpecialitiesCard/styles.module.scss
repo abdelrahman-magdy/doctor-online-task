@@ -1,0 +1,39 @@
+.specialities {
+
+    &-card {
+        width: 128px;
+        height: 128px;
+        padding: 21px 22px 0 21px;
+        border-radius: 8px;
+        box-shadow: 7.5px 7.5px 20px 0 rgba(9, 86, 126, 0.16);
+        background: #fff;
+        text-align: center;
+        cursor: pointer;
+        margin-block-end: 33px;
+        margin-inline-end: 33px;
+
+        &-image {
+            width: 55px;
+            height: 57px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        &-title {
+            margin-top: 11px;
+            margin-bottom: 3px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #09567e;
+            text-transform: capitalize;
+        }
+
+        &-descraption {
+            margin: 0;
+            height: 11px;
+            font-size: 10px;
+            font-weight: 500;
+            color: #6d7278;
+        }
+    }
+}

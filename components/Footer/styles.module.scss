@@ -1,0 +1,102 @@
+.footer {
+    background: #f9fdff;
+    padding: 50px 96px;
+    box-shadow: 15px -15px 40px 0 rgba(9, 86, 126, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo {
+        display: flex;
+
+        &-image {
+            margin-inline-end: 96px;
+        }
+    }
+
+    &-links {
+        &-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin-inline-end: 23px;
+            }
+
+            a {
+                font-family: MuseoSans;
+                font-size: 21px;
+                text-decoration: none;
+                color: #6d7278;
+                text-transform: capitalize;
+
+                &.active,
+                &:hover {
+                    color: #2c2c2c !important;
+                }
+            }
+        }
+    }
+
+    &-signup {
+
+
+        &-title {
+            font-size: 32px;
+            font-weight: bolder;
+            letter-spacing: 1.6px;
+            color: #09567e;
+            margin: 0 0 8px;
+        }
+
+        &-desc {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0 0 24px;
+            color: #6d7278;
+        }
+
+        &-btn {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 195px;
+            height: 48px;
+            border: double 2px transparent;
+            border-radius: 8px;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: bold;
+            background-image: linear-gradient(#f9fdff, #f9fdff),
+                linear-gradient(to left, #116a8c, #259da3 54%, #3db3ab 0%);
+            color: #3db3ab;
+        }
+
+    }
+
+    &-links-sociel {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 70px;
+        margin-inline-end: 23px;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            display: inline-block;
+            margin-inline-start: 23px;
+        }
+
+        svg {
+            font-size: 22px;
+            color: #6d7278;
+        }
+    }
+}

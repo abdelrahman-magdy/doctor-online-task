@@ -1,0 +1,50 @@
+.specialities {
+    margin-block: 165px;
+    margin-inline-start: 96px;
+
+    &-header {
+        background-image: linear-gradient(to left, #116a8c, #259da3 54%, #3db3ab 0%);
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: normal;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 0;
+        margin-bottom: 64px;
+        position: relative;
+        display: inline-block;
+
+        &::after {
+            content: '';
+            width: 438px;
+            height: 1px;
+            position: absolute;
+            z-index: 1;
+            inset-block-end: 50%;
+            inset-inline-start: calc(100% + 12px);
+            background: linear-gradient(to left, #116a8c, #259da3 54%, #3db3ab 0%);
+        }
+    }
+
+    &-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-btn {
+        display: block;
+        margin: 56px auto;
+        padding: 14px 75px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 15px 15px 20px 0 rgb(9 86 126 / 16%);
+        background: #3db3ab;
+        font-size: 16px;
+        letter-spacing: normal;
+        color: #fff;
+        text-transform: capitalize;
+        cursor: pointer;
+        transform: translateX(calc(100% - 270px));
+    }
+}
